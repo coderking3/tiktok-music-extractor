@@ -1,9 +1,9 @@
 import { defineConfig } from '@king-3/eslint-config'
 
-const eslintConfig = defineConfig({
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default defineConfig({
   typescript: true,
   vue: true,
+
   prettier: true
 })
-
-export default eslintConfig
