@@ -1,3 +1,14 @@
 {
-  "prettier.configPath": "prettier.config.js"
+  /* prettier */
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": "prettier.config.js",
+
+  /* eslint */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    // 禁用保存时自动整理 import 语句
+    "source.organizeImports": "never"
+  }
 }
