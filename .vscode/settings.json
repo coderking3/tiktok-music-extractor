@@ -1,7 +1,8 @@
 {
   /* prettier */
-  "prettier.enable": true,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
   "prettier.configPath": "prettier.config.js",
 
   /* eslint */
