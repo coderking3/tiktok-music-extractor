@@ -1,0 +1,28 @@
+{
+  "name": "tiktok-music-extractor",
+  "private": true,
+  "packageManager": "pnpm@10.6.1",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier . --write",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "4.1.0",
+    "kedash": "^0.3.0",
+    "nuxt": "^4.2.1",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@king-3/eslint-config": "^2.0.0",
+    "@king-3/prettier-config": "^1.0.2"
+  }
+}
