@@ -37,7 +37,6 @@ export async function getTiktokMusic(url: string): Promise<TiktokMusicResult> {
   try {
     // 1. 请求短链接，获取重定向后的真实链接
     const redirectUrl = await getRedirectUrl(url)
-    console.log(`🚀 ~ redirectUrl:`, redirectUrl)
 
     if (!redirectUrl) {
       return { code: -1, msg: '获取重定向链接失败' }
