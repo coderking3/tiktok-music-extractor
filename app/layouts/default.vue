@@ -4,14 +4,8 @@ defineOptions({ name: 'Layout' })
 
 <template>
   <div
-    class="layout min-h-screen from-pink-50 to-blue-50 via-purple-50 bg-gradient-to-br dark:from-gray-900 dark:to-gray-900 dark:via-purple-900/20"
+    class="layout min-h-screen from-blue-50 to-blue-100 via-white bg-gradient-to-br dark:from-gray-900 dark:to-blue-950 dark:via-gray-900"
   >
     <slot />
   </div>
 </template>
-
-<style scoped>
-/* .layout{
-
- } */
-</style>

@@ -2,5 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@unocss/nuxt']
+  modules: ['@nuxt/ui', '@unocss/nuxt'],
+  devServer: {
+    port: 3006,
+    host: '0.0.0.0'
+  }
 })
+
+// https://v.douyin.com/fJbXnLXYKbc
